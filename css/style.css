@@ -1,0 +1,145 @@
+body{background-color: black;}
+.wheel{position: absolute;
+		left: 250px;
+		top:90px;
+		width: 400px;}
+.mmca{position: absolute;
+		left: 25px;
+		top:23px;
+		font-size: 116;
+		font-weight:500;
+		color: white;
+		line-height:1;
+		font-family:"Roboto";}
+.road{width: 420px;
+	animation-name: op;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;}
+@keyframes op {
+    0% {opacity:0;}
+    50% {opacity:1;}
+   	100%{opacity:1;}
+}
+
+
+.thewheel{position: absolute;
+		left: 802px;
+		top:605px;
+		font-size: 116;
+		font-weight:500;
+		color:white;
+		line-height:1.5;
+		word-spacing: -19px;
+		font-family:"Roboto";}
+.a{position: absolute;
+		left:30px;
+		top:678px;
+		font-size: 16;
+		font-weight:medium;
+		color:black;
+		line-height:1.55;
+		font-family:"Noto Sans KR", sans-serif;}
+.b{position: absolute;
+		left: 806px;
+		top:740px;
+		font-size: 32;
+		font-weight:bold;
+		color: white;
+		font-family:"Noto Sans KR", sans-serif;
+		word-spacing: -3px;}
+.logo{position: absolute;
+	left:30px;
+	top:620px;
+	width: 40px;}
+.st0{
+	stroke-dasharray:2000 2000;
+	stroke-dashoffset:2000;
+
+	animation-name: draw;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;}
+.st1{
+	stroke-dasharray: 1000 1000;
+	stroke-dashoffset:1000;
+
+	animation-name: draw;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;}
+.st2{
+	stroke-dasharray: 1000 1000;
+	stroke-dashoffset:1000;
+
+	animation-name: draw;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;}
+.st3{
+	stroke-dasharray: 1000 1000;
+	stroke-dashoffset:1000;
+
+	animation-name: draw;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;}
+.st4{
+	stroke-dasharray: 1000 1000;
+	stroke-dashoffset:1000;
+
+	animation-name: draw;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;}
+.st5{
+	stroke-dasharray: 1000 1000;
+	stroke-dashoffset:1000;
+
+	animation-name: draw;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;}
+.st6{
+	stroke-dasharray: 1000 1000;
+	stroke-dashoffset:1000;
+
+	animation-name: draw;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;}
+.st7{
+	stroke-dasharray: 1000 1000;
+	stroke-dashoffset:1000;
+
+	animation-name: draw;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;}
+.st8{
+	stroke-dasharray: 1000 1000;
+	stroke-dashoffset:1000;
+
+	animation-name: draw;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;}
+.st9{
+	stroke-dasharray: 1000 1000;
+	stroke-dashoffset:1000;
+
+	animation-name: draw;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;}
+.st10{
+	stroke-dasharray: 1000 1000;
+	stroke-dashoffset:1000;
+
+	animation-name: draw;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;}
+.st11{
+	stroke-dasharray: 1000 1000;
+	stroke-dashoffset:1000;
+
+	animation-name: draw;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;}
+
+
+@keyframes draw{
+	0%{}
+	50%{
+		stroke-dashoffset:0;}
+	100% {stroke-dashoffset: 2000}
+}
